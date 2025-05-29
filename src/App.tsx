@@ -252,6 +252,18 @@ function App() {
               position: 'relative',
               overflow: 'hidden'
             }}>
+              <img 
+                src="/images/projects/me.png" 
+                alt="Michael Martinez" 
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  position: 'absolute',
+                  top: 0,
+                  left: 0
+                }}
+              />
               <div style={{
                 position: 'absolute',
                 top: '10px',
@@ -266,7 +278,6 @@ function App() {
               }}>
                 {"<developer/>"}
               </div>
-              Profile Image
               <div style={{
                 position: 'absolute',
                 bottom: '10px',
