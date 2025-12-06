@@ -741,6 +741,7 @@ function App() {
                 zIndex: 1
               }}></div>
             </div>
+            {/* Frontend hosted n vercel, backend hosted on render and mongodb, two separate repos */}
             <div className="project-content">
               <h3 className="project-title">Todos MERN Stack App              </h3>
               <p className="project-description">
