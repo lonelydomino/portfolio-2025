@@ -501,8 +501,8 @@ function App() {
                 <span className="tag">FastAPI</span>
               </div>
               <div className="project-links">
+                <a href="https://squid.amaearthgroup.com/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Explore</a>
                 <a href="https://github.com/lonelydomino/squid-frontend" target="_blank" rel="noopener noreferrer"><FaGithub /> Code</a>
-                <a href="https://squid.amaearthgroup.com/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Live Demo</a>
               </div>
             </div>
           </motion.div>
@@ -566,7 +566,7 @@ function App() {
                 <span className="tag">Figma</span>
               </div>
               <div className="project-links">
-                <a href="https://texasdemocrats.org/"><FaExternalLinkAlt /> Website</a>
+                <a href="https://texasdemocrats.org/"><FaExternalLinkAlt /> Explore</a>
               </div>
             </div>
           </motion.div>
@@ -630,7 +630,7 @@ function App() {
                 <span className="tag">UI/UX</span>
               </div>
               <div className="project-links">
-                <Link to="https://restaurant-michaelmartinez.com/" className="project-link"><FaExternalLinkAlt /> Explore</Link>
+                <Link to="https://react-restaurant-landing-page.onrender.com/" className="project-link"><FaExternalLinkAlt /> Explore</Link>
                 <a href="https://github.com/lonelydomino/react-restaurant-landing-page" target="_blank" rel="noopener noreferrer"><FaGithub /> Code</a>
               </div>
             </div>
@@ -690,7 +690,7 @@ function App() {
                 <span className="tag">React</span>
               </div>
               <div className="project-links">
-                <a href="https://gpt3-michaelmartinez.com/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Demo</a>
+                <a href="https://modern-react-app1.onrender.com/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Explore</a>
                 <a href="https://github.com/lonelydomino/modern-react-app1" target="_blank" rel="noopener noreferrer"><FaGithub /> Code</a>
               </div>
             </div>
@@ -753,7 +753,7 @@ function App() {
                 <span className="tag">NodeJS</span>
               </div>
               <div className="project-links">
-                <a href="https://todo-mern-client-mm-5a21c2410d1f.herokuapp.com/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Demo</a>
+                <a href="https://todos-mern-client.vercel.app/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Explore</a>
                 <a href="https://github.com/lonelydomino/Todos-Mern-FullApp" target="_blank" rel="noopener noreferrer"><FaGithub /> Code</a>
               </div>
             </div>
@@ -815,8 +815,197 @@ function App() {
                 <span className="tag">Bootstrap</span>
               </div>
               <div className="project-links">
-                <a href="https://654c7235320bb43a59837339--poetic-rolypoly-f66083.netlify.app/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Demo</a>
+                <a href="https://654c7235320bb43a59837339--poetic-rolypoly-f66083.netlify.app/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Explore</a>
                 <a href="https://github.com/lonelydomino/ts-react-notes-app" target="_blank" rel="noopener noreferrer"><FaGithub /> Code</a>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Project 7 - Real-time Chat Application */}
+          <motion.div 
+            className="project-card"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.6 }}
+          >
+            <div 
+              style={{
+                height: '200px',
+                background: 'linear-gradient(135deg, var(--accent), var(--secondary-accent))',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: 'white',
+                fontSize: '1.5rem',
+                fontWeight: 'bold',
+                position: 'relative',
+                overflow: 'hidden',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+              }}
+            >
+              <img 
+                src="/images/projects/7.png" 
+                alt="Real-time Chat Application" 
+                style={{
+                  position: 'absolute',
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  zIndex: 0
+                }}
+              />
+              
+              <div style={{
+                backgroundImage: 'linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4))',
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                zIndex: 1
+              }}></div>
+            </div>
+            <div className="project-content">
+              <h3 className="project-title">Real-time Chat Application</h3>
+              <p className="project-description">
+                A modern, full-featured real-time chat application with group chats, file sharing, voice messages, video calls, and end-to-end encryption. Built with Next.js, Socket.io, MongoDB, and Redis.
+              </p>
+              <div className="tags">
+                <span className="tag">Next.js</span>
+                <span className="tag">Socket.io</span>
+                <span className="tag">MongoDB</span>
+                <span className="tag">Redis</span>
+              </div>
+              <div className="project-links">
+                <a href="https://chat-app-qu48.onrender.com/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Explore</a>
+                <a href="https://github.com/lonelydomino/chat-app" target="_blank" rel="noopener noreferrer"><FaGithub /> Code</a>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Project 8 - Pilk Chat */}
+          <motion.div 
+            className="project-card"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.7 }}
+          >
+            <div 
+              style={{
+                height: '200px',
+                background: 'linear-gradient(135deg, var(--secondary-accent), var(--accent))',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: 'white',
+                fontSize: '1.5rem',
+                fontWeight: 'bold',
+                position: 'relative',
+                overflow: 'hidden',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+              }}
+            >
+              <img 
+                src="/images/projects/8.png" 
+                alt="Pilk Chat" 
+                style={{
+                  position: 'absolute',
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  zIndex: 0
+                }}
+              />
+              
+              <div style={{
+                backgroundImage: 'linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4))',
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                zIndex: 1
+              }}></div>
+            </div>
+            <div className="project-content">
+              <h3 className="project-title">Pilk Chat</h3>
+              <p className="project-description">
+                A modern, decentralized social media platform built with Next.js and TypeScript. Features include user authentication, posts, following system, likes, reposts, comments, real-time notifications, and a bookmarks system.
+              </p>
+              <div className="tags">
+                <span className="tag">Next.js</span>
+                <span className="tag">TypeScript</span>
+                <span className="tag">PostgreSQL</span>
+                <span className="tag">Tailwind CSS</span>
+              </div>
+              <div className="project-links">
+                <a href="https://pilkchat.vercel.app" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Explore</a>
+                <a href="https://github.com/lonelydomino/pilkchat" target="_blank" rel="noopener noreferrer"><FaGithub /> Code</a>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Project 9 - Weather Dashboard */}
+          <motion.div 
+            className="project-card"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.8 }}
+          >
+            <div 
+              style={{
+                height: '200px',
+                background: 'linear-gradient(135deg, var(--accent), var(--secondary-accent))',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: 'white',
+                fontSize: '1.5rem',
+                fontWeight: 'bold',
+                position: 'relative',
+                overflow: 'hidden',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+              }}
+            >
+              <img 
+                src="/images/projects/9.png" 
+                alt="Weather Dashboard" 
+                style={{
+                  position: 'absolute',
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  zIndex: 0
+                }}
+              />
+              
+              <div style={{
+                backgroundImage: 'linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4))',
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                zIndex: 1
+              }}></div>
+            </div>
+            <div className="project-content">
+              <h3 className="project-title">Weather Dashboard</h3>
+              <p className="project-description">
+                A full-stack weather dashboard application with Python FastAPI backend and React TypeScript frontend. Features include current weather data, forecast information, and real-time weather API integration with a modern, responsive interface.
+              </p>
+              <div className="tags">
+                <span className="tag">React</span>
+                <span className="tag">TypeScript</span>
+                <span className="tag">FastAPI</span>
+                <span className="tag">Python</span>
+              </div>
+              <div className="project-links">
+                <a href="https://weather-dashboard-nine-beta.vercel.app/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Explore</a>
+                <a href="https://github.com/lonelydomino/weather-dashboard" target="_blank" rel="noopener noreferrer"><FaGithub /> Code</a>
               </div>
             </div>
           </motion.div>
