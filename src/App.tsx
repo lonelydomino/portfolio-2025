@@ -876,7 +876,6 @@ function App() {
                 <span className="tag">Next.js</span>
                 <span className="tag">Socket.io</span>
                 <span className="tag">MongoDB</span>
-                <span className="tag">Redis</span>
               </div>
               <div className="project-links">
                 <a href="https://chat-app-qu48.onrender.com/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Explore</a>
@@ -931,7 +930,7 @@ function App() {
               }}></div>
             </div>
             <div className="project-content">
-              <h3 className="project-title">Pilk Chat</h3>
+              <h3 className="project-title">BlueSky Clone</h3>
               <p className="project-description">
                 A modern, decentralized social media platform built with Next.js and TypeScript. Features include user authentication, posts, following system, likes, reposts, comments, real-time notifications, and a bookmarks system.
               </p>
